@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+	<head>
+		<title>New Project</title>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="charpente, couverture, ossature bois, aix en provence, provence, le puy sainte réparade, toits de provence" />
+		<link rel="start" title="Accueil" href="index.php?page=home" />
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/twentytwenty.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" /> <!-- FancyBox Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" /> <!-- FancyBox ButtonHelper CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" /> <!-- FancyBox ThumbHemlper CSS -->
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300">
+		<link rel="stylesheet" media="screen" type="text/css" title="Design_One" href="style.css" />
+	</head>
+	<body>
+		<!-- Wrap all page content here -->
+		<div id="body">
+		  <!-- Fixed navbar -->
+		  <div id="menuZ" class="navbar navbar-default navbar-fixed-top">
+		    <div class="container">
+		      <div class="navbar-header">
+		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		        </button>
+		        <a class="navbar-brand" href="#">New Project</a>
+		      </div>
+		      <div class="collapse navbar-collapse">
+		        <ul class="nav navbar-nav">
+		          <li class="active"><a href="#">Acceuil</a></li>
+		          <li><a href="#about">Onglet 1</a></li>
+		          <li><a href="#contact">Onglet 2</a></li>
+		          <li class="dropdown">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<b class="caret"></b></a>
+		            <ul class="dropdown-menu">
+		              <li><a href="#">Drop 1</a></li>
+		              <li><a href="#">Drop 2</a></li>
+		              <li><a href="#">Drop 3</a></li>
+		            </ul>
+		          </li>
+		        </ul>
+		      </div><!--/.nav-collapse -->
+		    </div>
+		  </div>
+
+		  <!-- Begin page content -->
+		  <div id="pageZ" class="container well">
+		    <div class="title">
+		      <h1>New Project</h1>
+		    </div>
+			</div>
+			<br/>
+			<div class="container well content">
+		    <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p>
+		    <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+		  </div>
+		</div>
+
+		<div id="footer" class="navbar-default">
+		  <div class="container">
+		    <p class="text-footer">Crédit</p>
+		  </div>
+		</div> <!-- /footer -->
+		<script language="JavaScript" type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script language="JavaScript" type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script language="JavaScript" type="text/javascript" src="assets/js/jasny-bootstrap.min.js"></script>
+		<script language="JavaScript" type="text/javascript" src="assets/js/jqBootstrapValidation.js"></script>
+		<script language="JavaScript" type="text/javascript" src="assets/js/jquery.mousewheel-3.0.6.pack.js"></script>
+		<script language="JavaScript" type="text/javascript" src="assets/js/jquery.event.move.js"></script>
+		<script language="JavaScript" type="text/javascript" src="assets/js/jquery.twentytwenty.js"></script>
+		<script language="JavaScript" type="text/javascript" src="assets/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+		<script language="JavaScript" type="text/javascript" src="assets/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+		<script language="JavaScript" type="text/javascript" src="assets/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+		<script language="JavaScript" type="text/javascript">
+		  $(document).ready(
+				function() {
+		    $('.fancybox').fancybox({
+		      helpers : {
+		        thumbs : {
+		          width  : 50,
+		          height : 50
+		        },
+		        title : {
+		          type : 'inside'
+		        }
+		      }
+		    });
+			});
+			$(document).ready(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); });
+			$(window).load(function(){ $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.3}); });
+		</script>
+		<!-- <script language="JavaScript" type="text/javascript"> <?php echo($script); ?>  </script> -->
+	</body>
+</html>

@@ -1,0 +1,40 @@
+/* Color palette : http://paletton.com/#uid=10w0u0kk+fkdonKgIiTpdbouy74
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	font-family: 'Palatino Linotype', 'century gothic', sans-serif ;
+	background-image : url('images/back.jpg') ;
+	background-repeat : no-repeat ;
+  margin-bottom: 50px; /* Margin bottom by footer height */
+  padding-top: 0px ;
+  min-width : 600px ;
+}
+
+#pageZ {
+  margin-top: 100px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width : 100%;
+  height: 50px; /* Set the fixed height of the footer here */
+  border-radius: 0px ;
+  border : 1px solid transparent ;
+  border-width: 1px 0 0 0;
+  border-color: #e7e7e7;
+}
+
+.text-footer {
+  margin-top: 15px;
+  text-align : center ;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
