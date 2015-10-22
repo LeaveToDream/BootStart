@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 	// Chemins à utiliser pour accéder aux vues/modeles/controleur
 	define('CHEMIN_CONTROL','modules/'.$module.'/'.$module.'.php');

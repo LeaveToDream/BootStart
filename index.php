@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 	// Inclusion et initialisation de code"invisible"
 	session_start();
 
